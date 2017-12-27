@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../../lib/ex-page.min.css">
+    <style type="text/css">
+    .container-3d-sphere {
+        margin-left: 10.5%;
+        position: absolute;
+        top: 61%;
+        height: 9%;
+        width: 9%;
+        cursor: move;
+    }
+    
+    .container-3d-cube,
+    .container-3d-pyramid {
+        margin-left: 10.5%;
+        position: absolute;
+        top: 61%;
+        height: 10%;
+        width: 10%;
+        cursor: move;
+    }
+    
+    #webgl-cube {
+        top: -95%;
+        margin-left: -6%;
+        width: 0%;
+    }
+    
+    #webgl-sphere {
+        top: -203%;
+        margin-left: -5%;
+        width: 0%;
+    }
+    
+    #webgl-pyramid {
+        top: 5%;
+        margin-left: -10%;
+        width: 0%;
+    }
+    
+    #droppable {
+        position: absolute;
+        width: 81.5%;
+        height: 89.6%;
+        top: 4%;
+        left: 18%;
+        z-index: -1;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div class="container-3d-pyramid">
+        <div id="webgl-pyramid"></div>
+    </div>
+    <div class="container-3d-cube">
+        <div id="webgl-cube"></div>
+    </div>
+    <div class="container-3d-sphere">
+        <div id="webgl-sphere"></div>
+    </div>
+    <div id="droppable"></div>
+    <script src="../../lib/jquery.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="../../../lib/mathviewer.min.js"></script>
+    <script src="../../lib/ex-page.min.js"></script>
+    <script src="../../lib/page/features.min.js"></script>
+    <script src="../../lib/modernizr.custom.min.js"></script>
+    <script src="../../lib/bowser.min.js"></script>
+    <script src="../../lib/createjs/easeljs-0.7.1.min.js"></script>
+    <script src="../../lib/createjs/tweenjs-0.5.1.min.js"></script>
+    <script src="../../lib/createjs/movieclip-0.7.1.min.js"></script>
+    <script src="../../lib/createjs/preloadjs-0.6.2.min.js"></script>
+    <script src="../../lib/createjs/createjs_fontfix.min.js"></script>
+    <!-- <script type="text/javascript" src="../../lib/three.min.js"></script>
+     <script type="text/javascript" src="../../lib/OrbitControls.min.js"></script> -->
+    <script src="mot_programmering_1.min.js"></script>
+</body>
+
+</html>
